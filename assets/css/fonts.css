@@ -21,3 +21,15 @@
     src: url(../fonts/8bits.ttf);
     font-weight: lighter;
 }
+
+@font-face {
+    font-family: 'Cou-prime';
+    src: url(../fonts/CourierPrime-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cou-prime';
+    src: url(../fonts/CourierPrime-Bold.ttf);
+    font-weight: bold;
+}

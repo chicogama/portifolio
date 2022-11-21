@@ -1,8 +1,21 @@
 header {
-    background-color: beige;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #logo {
-    width: 150px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.nav-links a {
+    color: #153462;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #ffff;
+}
+
+.navbar button {
+    color: #153462;
 }
