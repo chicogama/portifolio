@@ -8,18 +8,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Importa estilos e plugins -->
 
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./plugins/fontawesome/css/all.min.css">
-    <link rel="shortcurt icon" type="imagem/png" href="./img/python.png" />
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="shortcurt icon" type="imagem/png" href="./img/logo.png" />
 
     <title>ChicoGama</title>
 </head>
 
 <body>
-    Meu portifolio
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!--Logo-->
+                <a class="navbar-brand imagem" href="#">
+                    <img id="logo" src="./img/logo.png" alt="logo">
+                </a>
+                <!--End logo-->
 
+                <!--Responsive menu-->
+                <button class="navbar-toggler button-resp" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--End responsive menu-->
 
+                <!--Navbar links-->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <div class="nav-links d-flex justify-content-end">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                            </li>
+
+                            <!--dropdown menu-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sobre mim
+                                        </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Formação</a></li>
+                                    <li><a class="dropdown-item" href="#">Atuação Profissional</a></li>
+                                </ul>
+                            </li>
+                            <!--end dropdown menu-->
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portifólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Tecnologias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contato</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!--End navbar-links-->
+                </div>
+        </nav>
+        <!--End Navbar-->
+
+    </header>
+    <!--End Header-->
+
+    <!--Main-->
+    <main>
+        <h1>Meu Portifólio</h1>
+    </main>
+    <!--End main-->
+
+    <!--Footer-->
+    <footer>
+        <h3>Josemar Gama®</h3>
+    </footer>
+    <!--End footer-->
+
+    <!--Scripts-->
+    <script src="./assets/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/fontawesome/js/all.js"></script>
+    <!--End Scripts-->
 </body>
 
 </html>
