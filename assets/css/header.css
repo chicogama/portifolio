@@ -1,25 +1,23 @@
 header {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #logo {
     margin-left: 30px;
     opacity: 100%;
-    width: 200px;
+    width: 160px;
+    height: 60px;
 }
 
-.navbar-toggler {
-    color: rgba(255, 255, 255, .55);
-    border-color: rgba(255, 255, 255, .1);
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    transition: box-shadow .15s ease-in-out;
+.navbar a {
+    color: #153462;
 }
 
-.navbar-nav li:hover {
+#navbarDropdown a {
     color: aliceblue;
+    background-color: #4FA095;
+}
+
+.navbar-nav>.active>a {
+    color: red;
 }
