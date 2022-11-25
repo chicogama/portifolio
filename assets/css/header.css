@@ -1,23 +1,41 @@
-header {
-    font-size: 16px;
-}
-
-#logo {
-    margin-left: 30px;
-    opacity: 100%;
-    width: 160px;
-    height: 60px;
-}
-
-.navbar a {
-    color: #153462;
-}
-
-#navbarDropdown a {
-    color: aliceblue;
-    background-color: #4FA095;
-}
-
-.navbar-nav>.active>a {
-    color: red;
-}
+    header {
+        align-items: center;
+    }
+    
+    .background {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    
+    .active a {
+        color: red !important;
+    }
+    
+    .navbar-nav>li.active>a {
+        color: red;
+    }
+    
+    .navbar a {
+        color: #f9f9f9;
+        font-weight: bolder;
+        text-shadow: 1px 1px #aaaa;
+        margin-left: 15px;
+    }
+    
+    #btn-ctt {
+        border-color: #BAD1C2;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+    
+    #nome {
+        padding-top: 30px;
+        color: #ffff;
+        text-shadow: 1px 1px #aaaa;
+        font-family: 'Ubuntu';
+        font-weight: bolder;
+        font-size: 30px;
+    }

@@ -1,22 +1,10 @@
 * {
-    font-family: 'Cou-prime';
+    font-family: 'Ubuntu'
 }
 
 html,
 body {
-    background: url(../../img/cool-background2.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     margin: 0;
     padding: 0;
-}
-
-.background {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    z-index: 0;
+    box-sizing: border-box;
 }
