@@ -1,89 +1,87 @@
-    header {
-        align-items: center;
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.nav-link {
+    color: #4FA095;
+}
+
+.nav-item>a:hover {
+    color: #4FA095;
+}
+
+
+/*code to change background color*/
+
+.navbar-nav>.active>a {
+    border-radius: 5px;
+    background-color: #C0C0C0;
+    color: #4FA095;
+}
+
+.navbar a {
+    font-family: 'Ubuntu';
+    color: #f9f9f9;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+#btn-contact {
+    color: #f9f9f9;
+    background-color: #4FA095;
+    border-color: #BAD1C2;
+    text-shadow: 1px 1px #aaaa;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+#btn-contact:hover {
+    background-color: #aaa;
+}
+
+#nome {
+    padding-top: 30px;
+    color: #ffff;
+    text-shadow: 1px 1px #aaaa;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.wrapper {
+    height: 5vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+.my-name {
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
     }
-    
-    .background {
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 0;
-        z-index: 0;
+}
+
+@keyframes blink {
+    30% {
+        border-color: transparent
     }
-    
-    .nav-link {
-        color: #4FA095;
-    }
-    
-    .nav-item>a:hover {
-        color: #4FA095;
-    }
-    /*code to change background color*/
-    
-    .navbar-nav>.active>a {
-        border-radius: 5px;
-        background-color: #C0C0C0;
-        color: #4FA095;
-    }
-    
-    .navbar a {
-        font-family: 'Ubuntu';
-        color: #f9f9f9;
-        font-weight: bolder;
-        margin-left: 10px;
-    }
-    
-    #btn-contact {
-        color: #f9f9f9;
-        background-color: #4FA095;
-        border-color: #BAD1C2;
-        text-shadow: 1px 1px #aaaa;
-        font-weight: bolder;
-        margin-left: 20px;
-        margin-top: 0;
-    }
-    
-    #btn-contact:hover {
-        background-color: #aaa;
-    }
-    
-    #nome {
-        padding-top: 30px;
-        color: #ffff;
-        text-shadow: 1px 1px #aaaa;
-        font-family: 'Ubuntu';
-        font-weight: bolder;
-        font-size: 30px;
-    }
-    
-    .wrapper {
-        height: 5vh;
-        /*This part is important for centering*/
-        display: grid;
-        place-items: center;
-    }
-    
-    .my-name {
-        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-        font-family: monospace;
-        font-size: 2em;
-    }
-    
-    @keyframes typing {
-        from {
-            width: 0
-        }
-    }
-    
-    @keyframes blink {
-        30% {
-            border-color: transparent
-        }
-    }
-    
-    #cargo {
-        width: 100%;
-        font-size: 1em;
-    }
+}
+
+#cargo {
+    width: 100%;
+    font-size: 1em;
+}
