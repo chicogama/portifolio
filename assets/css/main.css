@@ -18,7 +18,39 @@ section {
 }
 
 section:nth-of-type(1) {
-    background: url(../../img/nebula.png) no-repeat center center fixed;
+    background: url(/assets/img/cool-background2.png) no-repeat center center fixed;
     background-size: cover;
     min-height: 900px;
+}
+
+
+/* section:nth-of-type(1) {
+    background: url(/assets/img/nebula.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 900px;
+}
+
+section:nth-of-type(1) {
+    background: url(/assets/img/nebula.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 900px;
+}
+
+section:nth-of-type(1) {
+    background: url(/assets/img/nebula.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 900px;
+} */
+
+#btn-down {
+    background-color: #4FA095;
+    font-weight: bold;
+}
+
+#btn-down:hover {
+    background-color: #aaa;
+}
+
+#btn-down>a:hover {
+    text-decoration: #4FA095;
 }
