@@ -1,0 +1,19 @@
+.card-body {
+    background-color: #4FA095;
+    text-align: center;
+    color: #f9f9f9;
+    min-height: 140px;
+}
+
+.card-body h5 {
+    font-size: 14px;
+}
+
+.card-body p {
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+
+.card-img-top {
+    height: 160px;
+}

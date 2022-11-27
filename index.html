@@ -20,7 +20,7 @@
     <!--Header-->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top" style="background: linear-gradient(rgba(0,0,0,6), transparent);">
-            <div class="container-fluid  d-flex justify-content-center">
+            <div class="container-fluid d-flex justify-content-center">
                 <a class="navbar-brand pt-3 px-5" id="nome" href="#"><i class="fa-solid fa-terminal"></i> CHICOGAMA</a>
 
                 <!--Responsive button-->
@@ -32,8 +32,8 @@
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-end px-5 pt-3" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
+                    <ul class="navbar-nav active">
+                        <li class="nav-item">
                             <a class="nav-link d-flex justify-content-center" aria-current="page" href="#principal"><i class="fa-solid fa-house p-1"></i>PRINCIPAL </a>
                             <span class="sr-only">
                         (current)
@@ -95,13 +95,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- <canvas class="background"></canvas> -->
+
         </section>
+
         <section id="sobre">
-            <div class="about-me">
+            <div class="my-content col-9">
                 <div class="container">
-                    <div class="row ">
-                        <div id="tittle" class="col-12">
+                    <div class="row">
+                        <div id="tittle" class="col-12 pt-3">
                             <h1>Sobre mim</h1>
                         </div>
                         <div class="col-md-6 ">
@@ -137,67 +138,119 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-md-6 ">
-                            <h3 class="titulo ">Josemar Ferreira gama</h3>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
+                        <div class="col-md-6">
+                            <h3>Bem vindo ao meu portifólio!</h3>
+                            <p>Me chamo Josemar Ferreira Gama, sou Desenvolvedor de aplicativos para Web.</p>
+                            <p>Tenho 25 anos de idade, natural do Pará e atualmente morando em Macapá-AP. Sou entusiasta em tecnologia e desenvolvimento, uma paixão por games e eSports e admirador de animações Japonesasas.</p>
+                            <p>Minhas habilidade incluem:</p>
+                            <ul id="ability-list">
+                                <li><i class="fa-brands fa-html5"></i> HTML 5</li>
+                                <li><i class="fa-brands fa-css3-alt"></i> CSS 3</li>
+                                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                                <li><i class="fa-brands fa-angular"></i> Angular</li>
+                            </ul>
                         </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <div class="my-content">
+                <div class="container d-flex justify-content-center">
+                    <div class="row">
+                        <div id="tittle" class="col-12 mb-0">
+                            <h1>FORMAÇÃO</h1>
+                        </div>
+                        <div id="tittle" class="col-12 m-0">
+                            <p>Esses são alguns cursos realizados durante minhas jornadas de estudos em tecnologia 📚.</p>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <a class="btn" href="#!" target="_blank" rel="noopener noreferrer" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="/assets/img/certificate.svg.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tec. em Redes de Computadores</h5>
+                                        <p class="card-text">Faculdade de Macapá</p>
+                                        <p>2014-2017</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <a class="btn" href="" rel="noopener noreferrer" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="/assets/img/certificate.svg.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bac. Ciência da Computação</h5>
+                                        <p class="card-text">Uni. Federal do Amapá</p>
+                                        <p>2018-2023</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <a class="btn" href="/assets/img/ccna1.png" target="_blank" rel="noopener noreferrer" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="/assets/img/senai.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Adm. Redes de Computadores</h5>
+                                        <p class="card-text">SENAI Amapá</p>
+                                        <p>2019-2019</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <a class="btn" href="/assets/img/ccna1.png" target="_blank" rel="noopener noreferrer" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="/assets/img/ccna1.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CCNA R&S: Modulo I</h5>
+                                        <p class="card-text">NetAcad</p>
+                                        <p>2018-2018</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <a class="btn" href="/assets/img/ccna2.png" target="_blank" rel="noopener noreferrer" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="/assets/img/ccna2.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CCNA R&S: Modulo II</h5>
+                                        <p class="card-text">NetAcad</p>
+                                        <p>2018-2018</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <a class="btn" href="/assets/img/ccna3.png" target="_blank" rel="noopener noreferrer" style="width: 18rem;">
+                                <div class="card">
+                                    <img class="card-img-top" src="/assets/img/ccna3.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CCNA R&S: Modulo II</h5>
+                                        <p class="card-text">NetAcad</p>
+                                        <p>2019-2019</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="formacao">
-            <div class="about-me ">
-                <div class="container ">
-                    <div class="row ">
-                        <div id="tittle" class="col-12">
-                            <h1>FORMAÇÃO</h1>
-                        </div>
-                        <div class="col-md-6 ">
-                            <img class="img-fluid " src="/assets/img/perfil.jpg " alt="imgperfil ">
-                        </div>
-                        <div class="col-md-6 ">
-                            <h3 class="titulo ">Josemar Ferreira gama</h3>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section id="atuacao">
-            <div id="about-me ">
+            <div class="my-content col-9">
                 <div class="container ">
                     <div class="row ">
                         <div id="tittle" class="col-12">
                             <h1>Atuação Profissional</h1>
-                        </div>
-                        <div class="col-md-6 ">
-                            <img class="img-fluid " src="/assets/img/perfil.jpg " alt="imgperfil ">
-                        </div>
-                        <div class="col-md-6 ">
-                            <h3 class="titulo ">Josemar Ferreira gama</h3>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -205,25 +258,38 @@
         </section>
 
         <section id="portifolio">
-            <div id="about-me ">
+            <div class="my-content col-9">
                 <div class="container ">
                     <div class="row ">
                         <div id="tittle" class="col-12">
                             <h1>Protifólio</h1>
                         </div>
-                        <div class="col-md-6 ">
-                            <img class="img-fluid " src="/assets/img/perfil.jpg " alt="imgperfil ">
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/img/certificate.svg.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 ">
-                            <h3 class="titulo ">Josemar Ferreira gama</h3>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/img/certificate.svg.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="/assets/img/certificate.svg.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text dadada</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -231,57 +297,61 @@
         </section>
 
         <section id="contato">
-            <div id="about-me ">
-                <div class="container ">
+            <div class="my-content col-9">
+                <div class="container">
                     <div class="row ">
                         <div id="tittle" class="col-12">
                             <h1>Contatos</h1>
                         </div>
-                        <div class="col-md-6 ">
-                            <h3 class="titulo ">Josemar Ferreira gama</h3>
-                            <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
+                        <div class="col-md-6 mt-4">
+                            <h3 class="titulo ">Alguma pergunta ou sugestão?</h3>
+                            <p>Use o formulário de e-mail ou contatos:</p>
+                            <ul id="contact-list">
+                                <li><i class="fa-solid fa-square-phone"></i> +55(96)99127-7292</li>
+                                <li><i class="fa-solid fa-envelope"></i> Josemargamadev@gmail.com</li>
+                                <li>
+                                    <a class="btn text-light p-0" href="https://github.com/chicogama" target="_blank"><i class="fa-brands fa-linkedin"></i> /josemargama</a>
+                                </li>
+                                <li>
+                                    <a class="btn text-light p-0" href="https://github.com/chicogama" target="_blank"><i class="fa-brands fa-square-github "></i></i> /chicogama</a>
+                                </li>
+                                <li>
+                                    <a class="btn text-light p-0" href="https://github.com/chicogama"><i class="fa-brands fa-square-instagram "></i> @chicogama.sh</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-md-6 ">
-                            <form>
-                                <fieldset disabled>
-                                    <legend>Disabled fieldset example</legend>
+                        <div class="col-md-6 mt-0">
+                            <div class="sendmail">
+                                <form class="mb-5">
                                     <div class="mb-3">
-                                        <label for="disabledTextInput" class="form-label">Disabled input</label>
-                                        <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome Completo">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="disabledSelect" class="form-label">Disabled select menu</label>
-                                        <select id="disabledSelect" class="form-select">
-                                      <option>Disabled select</option>
-                                    </select>
+                                        <label for="exampleFormControlInput1" class="form-label">Endereço de Email</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@mail.com">
                                     </div>
                                     <div class="mb-3">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                                            <label class="form-check-label" for="disabledFieldsetCheck">
-                                        Can't check this
-                                      </label>
-                                        </div>
+                                        <label for="exampleFormControlTextarea1" class="form-label">Menssagem</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </fieldset>
-                            </form>
+                                    <button type="submit" class="btn btn">Enviar <i class="fa-regular fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- <canvas class="background"></canvas> -->
     </main>
     <!--End main-->
 
     <!--Footer-->
 
-    <footer class="text-center text-white pt-2" id="foot" style="background-color: rgba(79, 160, 149, 1); ">
-        <div class="text-center text-light p-2 ">
+    <footer class="text-center text-white pt-2" id="foot" style="background-color: rgba(79, 160, 149, 0.7); ">
+        <div class="text-center text-light p-2">
             Minhas mídias sociais
         </div>
         <!-- Grid -->

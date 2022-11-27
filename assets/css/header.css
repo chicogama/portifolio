@@ -42,6 +42,8 @@
 
 #btn-contact:hover {
     background-color: #aaa;
+    transform: scale(1.02);
+    transition: .2s;
 }
 
 #nome {
@@ -54,7 +56,7 @@
 }
 
 .wrapper {
-    height: 5vh;
+    height: 8vh;
     /*This part is important for centering*/
     display: grid;
     place-items: center;
