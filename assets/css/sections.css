@@ -6,32 +6,32 @@ section {
 }
 
 section:nth-of-type(1) {
-    background: url(/assets/img/cool-background3.png) no-repeat center center fixed;
+    background: url(../../assets/img/cool-background3.png) no-repeat center center fixed;
     background-size: cover;
 }
 
 section:nth-of-type(2) {
-    background: url(/assets/img/nebula.png) no-repeat center center fixed;
+    background: url(../../assets/img/nebula.png) no-repeat center center fixed;
     background-size: cover;
 }
 
 section:nth-of-type(3) {
-    background: url(/assets/img/nebula2.png) no-repeat center center fixed;
+    background: url(../../assets/img/nebula2.png) no-repeat center center fixed;
     background-size: cover;
 }
 
 section:nth-of-type(4) {
-    background: url(/assets/img/back1.jpg) no-repeat center center fixed;
+    background: url(../../assets/img/back1.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 section:nth-of-type(5) {
-    background: url(/assets/img/back4.jpg) no-repeat center center fixed;
+    background: url(../../assets/img/back4.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 section:nth-of-type(6) {
-    background: url(/assets/img/blur.jpg) no-repeat center center fixed;
+    background: url(../../assets/img/blur.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
