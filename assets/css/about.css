@@ -12,32 +12,17 @@
     margin-bottom: 25px;
 }
 
-#ability-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-#ability-list li {
-    line-height: 35px;
-}
-
-#ability-list i {
-    color: aqua;
-    margin-right: 5px;
-    font-size: 1.3rem;
-}
-
-.service-box {
+.ability {
     text-align: center;
     font-size: 40px;
     margin: 5px;
 }
 
-.service-box i,
-.service-box h4 {
+.ability i,
+.ability h4 {
     transition: .5s;
 }
 
-.service-box h4 {
+.ability h4 {
     font-size: 14px;
 }
