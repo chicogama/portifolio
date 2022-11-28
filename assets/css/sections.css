@@ -36,7 +36,7 @@ section:nth-of-type(6) {
 }
 
 .my-content {
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: transparent;
     backdrop-filter: blur(200px);
     -webkit-backdrop-filter: blur(200px);

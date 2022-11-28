@@ -24,3 +24,45 @@ main {
 #btn-down>a:hover {
     text-decoration: #4FA095;
 }
+
+.wrapper {
+    height: 8vh;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper h3 {
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: 'Roboto' monospace;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.about-sumary h5 {
+    font-size: 1em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    30% {
+        border-color: transparent
+    }
+}
+
+#cargo {
+    font-size: 1em;
+}
+
+#img-perfil {
+    width: 100vh;
+    border: none;
+    background-color: rgba(192, 192, 192, 0.3);
+}

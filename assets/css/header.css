@@ -14,9 +14,6 @@
     color: #4FA095;
 }
 
-
-/*code to change background color*/
-
 .navbar-nav>.active>a {
     border-radius: 5px;
     background-color: #C0C0C0;
@@ -24,7 +21,7 @@
 }
 
 .navbar a {
-    font-family: 'Ubuntu';
+    font-family: 'Cou-prime' normal;
     color: #f9f9f9;
     font-weight: bolder;
     margin-left: 10px;
@@ -36,7 +33,6 @@
     border-color: #BAD1C2;
     text-shadow: 1px 1px #aaaa;
     font-weight: bolder;
-    margin-left: 20px;
     margin-top: 0;
 }
 
@@ -53,37 +49,4 @@
     font-family: 'Ubuntu';
     font-weight: bolder;
     font-size: 30px;
-}
-
-.wrapper {
-    height: 8vh;
-    /*This part is important for centering*/
-    display: grid;
-    place-items: center;
-}
-
-.my-name {
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-@keyframes blink {
-    30% {
-        border-color: transparent
-    }
-}
-
-#cargo {
-    width: 100%;
-    font-size: 1em;
 }

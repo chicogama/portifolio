@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-end px-5 pt-3" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav active">
+                    <ul class="navbar-nav d-flex justify-content-center">
                         <li class="nav-item">
                             <a class="nav-link d-flex justify-content-center" aria-current="page" href="#principal"><i class="fa-solid fa-house p-1"></i>PRINCIPAL </a>
                             <span class="sr-only">
@@ -69,19 +69,17 @@
                 <div class="container pt-5">
                     <div class="col d-flex justify-content-center">
                         <div class="col-4 pt-5">
-                            <img class="img-thumbnail rounded-circle" src="./assets/img/perfil.jpg" alt="imgperfil" style="width:800px ;height:250px;">
+                            <img id="img-perfil" class="img-thumbnail rounded-circle" src="./assets/img/perfil.jpg" alt="imgperfil" style="height: em;">
                             <div class="container d-flex flex-column justify-content-center">
-                                <div class="about-sumary pt-4 text-light text-center">
+                                <div class="about-sumary pt-2 text-light text-center">
                                     <div class="wrapper">
-                                        <div class="my-name">
-                                            <h3>Josemar Ferreira Gama</h3>
-                                        </div>
+                                        <h3>Josemar Ferreira Gama</h3>
                                     </div>
-                                    <h5 id="cargo">Desenvolvedor Web</h5>
+                                    <h5>Desenvolvedor Web</h5>
                                     <a id="btn-down" href="./assets/img/Josemar Gama Curriculum Vitae.pdf" class="btn text-light border-light mt-2" aria-current="page">Download CV <i class="fa-solid fa-download"></i></a>
                                 </div>
                                 <!--Social media -->
-                                <div class="socials d-flex justify-content-center mt-2">
+                                <div class="socials d-flex justify-content-center mt-2 pb-4">
                                     <!-- Github -->
                                     <a class="btn btn-link btn-floating btn-lg text-light px-2" style="font-size: 1.7rem;" href="https://github.com/chicogama " target="_blank " role="button "><i class="fa-brands fa-square-github "></i></a>
                                     <!-- Linkedin -->
@@ -99,57 +97,87 @@
         </section>
 
         <section id="sobre">
-            <div class="my-content col-9">
+            <div class="my-content col-10">
                 <div class="container">
                     <div class="row">
                         <div id="tittle" class="col-12 pt-3">
                             <h1>Sobre mim</h1>
                         </div>
-                        <div class="col-md-6 ">
-                            <!-- Carousel -->
-                            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                        <div class="container">
+                            <div id="about-me" class="row d-flex">
+                                <div class="col-md-5 d-flex">
+                                    <!-- Carousel -->
+                                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                                <!-- Indicators/dots -->
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                        <!-- Indicators/dots -->
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                        </div>
+
+                                        <!-- The slideshow/carousel -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="./assets/img/8002.jpg" alt="Los Angeles" class="d-block w-100">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./assets/img/boji.jpeg" alt="Chicago" class="d-block w-100">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="./assets/img/800.jpg" alt="New York" class="d-block w-100">
+                                            </div>
+                                        </div>
+
+                                        <!-- Left and right controls/icons -->
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                            </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Bem vindo ao meu portifólio!</h3>
+                                    <p>Me chamo Josemar Ferreira Gama, sou Desenvolvedor de aplicativos para Web.</p>
+                                    <p>Tenho 25 anos de idade, natural do Pará e atualmente morando em Macapá-AP. Sou entusiasta em tecnologia e desenvolvimento, uma paixão por games e eSports e admirador de animações Japonesasas.</p>
+                                    <p>Minhas habilidade incluem:</p>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center">
+                                                <div class="col-md-2 service-box">
+                                                    <i class="fa-brands fa-html5"></i>
+                                                    <h4>HTML5</h4>
+                                                </div>
+                                                <div class="col-md-2 service-box">
+                                                    <i class="fa-brands fa-css3-alt"></i>
+                                                    <h4>CSS3</h4>
+                                                </div>
+                                                <div class="col-md-2 service-box">
+                                                    <i class="fa-brands fa-js"></i>
+                                                    <h4>JavaScript</h4>
+                                                </div>
+                                                <div class="col-md-2 service-box">
+                                                    <i class="fa-brands fa-angular"></i>
+                                                    <h4>Angular</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
 
-                                <!-- The slideshow/carousel -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./assets/img/8002.jpg" alt="Los Angeles" class="d-block w-100">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./assets/img/boji.jpeg" alt="Chicago" class="d-block w-100">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./assets/img/800.jpg" alt="New York" class="d-block w-100">
-                                    </div>
-                                </div>
 
-                                <!-- Left and right controls/icons -->
-                                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                                </button>
+                                <!-- <ul id="ability-list">
+                                    <li><i class="fa-brands fa-html5"></i> HTML 5</li>
+                                    <li><i class="fa-brands fa-css3-alt"></i> CSS 3</li>
+                                    <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                                    <li><i class="fa-brands fa-angular"></i> Angular</li>
+                                </ul> -->
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <h3>Bem vindo ao meu portifólio!</h3>
-                            <p>Me chamo Josemar Ferreira Gama, sou Desenvolvedor de aplicativos para Web.</p>
-                            <p>Tenho 25 anos de idade, natural do Pará e atualmente morando em Macapá-AP. Sou entusiasta em tecnologia e desenvolvimento, uma paixão por games e eSports e admirador de animações Japonesasas.</p>
-                            <p>Minhas habilidade incluem:</p>
-                            <ul id="ability-list">
-                                <li><i class="fa-brands fa-html5"></i> HTML 5</li>
-                                <li><i class="fa-brands fa-css3-alt"></i> CSS 3</li>
-                                <li><i class="fa-brands fa-js"></i> JavaScript</li>
-                                <li><i class="fa-brands fa-angular"></i> Angular</li>
-                            </ul>
-                        </div>
+
 
                     </div>
                 </div>
@@ -248,9 +276,73 @@
         <section id="atuacao">
             <div class="my-content col-9">
                 <div class="container ">
-                    <div class="row ">
-                        <div id="tittle" class="col-12">
+                    <div class="row">
+                        <div id="tittle" class="col-12 mb-0">
                             <h1>Atuação Profissional</h1>
+                        </div>
+                        <div id="tittle" class="col-12 m-0">
+                            <p>Minhas experiência profissinais atuando na área de tecnologia 👨‍💻.</p>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col-md-2 d-flex justify-content-center">
+                                <div class="img-job">
+                                    <img src="./assets/img/jfap.png" class="img-fluid rounded float-start bg-light p-2 m-0" alt="job1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-start">
+                                <div class="desc d-inline">
+                                    <h5>
+                                        Justiça Federal do Amapá
+                                    </h5>
+                                    <p>
+                                        Estagiário 06/2019 - 09/2020
+                                    </p>
+                                    <p>
+                                        Infraestrutura e serviços de rede, suporte.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-2">
+                            <div class="col-md-2 d-flex justify-content-center">
+                                <div class="img-job">
+                                    <img src="./assets/img/dividata.jpg" class="img-fluid rounded float-start bg-light p-2 m-0" alt="job1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-start">
+                                <div class="desc d-inline">
+                                    <h5>
+                                        Dividata Processamento de Dados LTDA.
+                                    </h5>
+                                    <p>
+                                        Técnico em Microinformática 09/2020 - 3/2022
+                                    </p>
+                                    <p>
+                                        Infraestrutura e serviços de rede, suporte. Prestador de serviços ao TRF1.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-2">
+                            <div class="col-md-2 d-flex justify-content-center">
+                                <div class="img-job">
+                                    <img src="./assets/img/lanlink.png" class="img-fluid rounded float-start bg-light p-2 m-0" alt="job1">
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-start">
+                                <div class="desc d-inline">
+                                    <h5>
+                                        Lanlink serviços de Informática LTDA.
+                                    </h5>
+                                    <p>
+                                        Analista de Suporte 2º Nível.
+                                    </p>
+                                    <p>
+                                        Suporte, Infraestrutura de Redes.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -264,15 +356,19 @@
                         <div id="tittle" class="col-12">
                             <h1>Protifólio</h1>
                         </div>
-                        <div class="col-md-4 d-flex mb-4 justify-content-center">
+                        <!-- Card -->
+                        <div class="col-md-4">
                             <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="./assets/img/certificate.svg.png" alt="Card image cap">
+                                <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title </p>
+                                    <h5 class="card-title">Título do card</h5>
+                                    <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                                    <a href="#" class="btn btn-primary">Visitar</a>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Card -->
                         <div class="col-md-4 d-flex mb-4 justify-content-center">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="./assets/img/certificate.svg.png" alt="Card image cap">
@@ -299,47 +395,51 @@
         <section id="contato">
             <div class="my-content col-9">
                 <div class="container">
-                    <div class="row ">
+                    <div class="row">
                         <div id="tittle" class="col-12">
                             <h1>Contatos</h1>
                         </div>
-                        <div class="col-md-6 mt-4">
-                            <h3 class="titulo ">Alguma pergunta ou sugestão?</h3>
-                            <p>Use o formulário de e-mail ou contatos:</p>
-                            <ul id="contact-list">
-                                <li><i class="fa-solid fa-square-phone"></i> +55(96)99127-7292</li>
-                                <li><i class="fa-solid fa-envelope"></i> Josemargamadev@gmail.com</li>
-                                <li>
-                                    <a class="btn text-light p-0" href="https://github.com/chicogama" target="_blank"><i class="fa-brands fa-linkedin"></i> /josemargama</a>
-                                </li>
-                                <li>
-                                    <a class="btn text-light p-0" href="https://github.com/chicogama" target="_blank"><i class="fa-brands fa-square-github "></i></i> /chicogama</a>
-                                </li>
-                                <li>
-                                    <a class="btn text-light p-0" href="https://github.com/chicogama"><i class="fa-brands fa-square-instagram "></i> @chicogama.sh</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 mt-0">
-                            <div class="sendmail">
-                                <form class="mb-5">
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome Completo">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Endereço de Email</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@mail.com">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Menssagem</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn">Enviar <i class="fa-regular fa-paper-plane"></i></button>
-                                </form>
-                            </div>
 
+                        <div id="contact-info" class="row d-flex justify-content-center">
+                            <div class="col-md-5 pt-3">
+                                <h3 class="titulo ">Alguma pergunta ou sugestão?</h3>
+                                <p>Use o formulário de e-mail ou contatos:</p>
+                                <ul id="contact-list">
+                                    <li><i class="fa-solid fa-square-phone"></i> +55(96)99127-7292</li>
+                                    <li><i class="fa-solid fa-envelope"></i> Josemargamadev@gmail.com</li>
+                                    <li>
+                                        <a class="btn text-light p-0" href="https://github.com/chicogama" target="_blank"><i class="fa-brands fa-linkedin"></i> /josemargama</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn text-light p-0" href="https://github.com/chicogama" target="_blank"><i class="fa-brands fa-square-github "></i></i> /chicogama</a>
+                                    </li>
+                                    <li>
+                                        <a class="btn text-light p-0" href="https://github.com/chicogama"><i class="fa-brands fa-square-instagram "></i> @chicogama.sh</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="sendmail">
+                                    <form class="mb-4">
+                                        <div class="mb-2">
+                                            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome Completo">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="exampleFormControlInput1" class="form-label">Endereço de Email</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@mail.com">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Menssagem</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn">Enviar <i class="fa-regular fa-paper-plane"></i></button>
+                                    </form>
+                                </div>
+
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
