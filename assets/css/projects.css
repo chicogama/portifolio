@@ -48,3 +48,31 @@
     transition: .2s;
     border-color: #f1f1f1;
 }
+
+#img-project img {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(192, 192, 192, 0.3);
+}
+
+.tec {
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+    background-color: rgba(192, 192, 192, 0.3);
+    border-radius: 5px;
+}
+
+.tec a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.tec a:hover {
+    color: #474747;
+    transition: .5s;
+}
+
+.tec h4 {
+    font-size: 14px;
+}
