@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
     <link rel="shortcurt icon" type="imagem/png" href="./assets/keyboard-regular.svg">
 
-    <title>Mensagens</title>
+    <title>Python</title>
 </head>
 
-<body onload="mensagem.listarMsg()">
+<body>
     <!--Header-->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top" style="background: linear-gradient(rgba(0,0,0,6), transparent);">
@@ -40,6 +40,7 @@
                     </span>
                             </a>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -49,30 +50,65 @@
 
     <!--Main-->
     <main>
-        <section id="sobre">
+        <section>
             <div class="my-content col-10">
                 <div class="container">
-                    <div class="row">
-                        <div id="tittle" class="col-12 pt-3">
-                            <h1>Minhas Mensagens</h1>
+                    <div class="breadcrumb">
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../">Principal</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Python</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div id="tec-content" class="row">
+                        <div class="col-12 m-0 d-flex justify-content-center">
+                            <h3>Python</h3>
                         </div>
                         <div class="container">
-                            <div id="about-me" class="row d-flex">
-                                <table>
-                                    <thead>
-                                        <th class="center"> NOME</th>
-                                        <th class="center">EMAIL</th>
-                                        <th class="center">MENSAGEM</th>
-                                        <th class="center">AÇÕES</th>
-                                    </thead>
-                                    <tbody id="tbody">
+                            <div class="col">
+                                <div id="tittle" class="col-12 m-0 d-flex justify-content-center">
+                                    <h5>Um Pouco Sobre a linguagem de programação Python</h5>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="col-md-6">
+                                        <div class="container ">
+                                            <div id="tecs-img" class="img ">
+                                                <img src="../assets/img/python2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                    </tbody>
-                                </table>
+                                <div class="d-flex justify-content-center">
+                                    <div class="col-10">
+                                        <div class="container">
+                                            <p>
+                                                Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. Atualmente, possui um modelo de desenvolvimento comunitário,
+                                                aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente
+                                                especificada. O padrão na pratica é a implementação CPython.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col d-flex justify-content-center">
+                                    <div class="col-10">
+                                        <div class="container">
+                                            <h5 class="d-flex justify-content-center">Veja o vídeo para conhecer mais sobre Python</h5>
+                                            <div class="ratio ratio-16x9">
+                                                <iframe width="1180" height="664" src="https://www.youtube.com/embed/uOgDa1rlqjE" title="Python // Dicionário do Programador" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-
-                            <button onclick="mensagem.limparMsg()" type="submit" class="btn btn-secondary">Limpar Mensagens<i class="fa-solid fa-trash-can mx-1"></i></button>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -112,7 +148,6 @@
     <script src="../assets/fontawesome/js/all.js "></script>
     <script src="../assets/js/particles.min.js "></script>
     <script src="../assets/js/script.js "></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!--End Scripts-->
 </body>
 
